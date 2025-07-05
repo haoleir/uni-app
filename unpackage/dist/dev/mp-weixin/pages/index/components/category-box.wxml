@@ -1,0 +1,1 @@
+<view class="category-box"><view wx:for="{{a}}" wx:for-item="item" wx:key="b" class="category-item">{{item.a}}</view><view class="category-item"> 全部分类 </view></view>

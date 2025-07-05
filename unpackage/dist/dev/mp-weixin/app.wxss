@@ -1,0 +1,162 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/*文本基本颜色*/
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*每个页面公共css */
+view,
+scroll-view,
+swiper,
+swiper-item,
+cover-view,
+cover-image,
+icon,
+text,
+rich-text,
+progress,
+button,
+checkbox,
+form,
+input,
+label,
+radio,
+slider,
+switch,
+textarea,
+navigator,
+audio,
+camera,
+image,
+video {
+	/* 
+	对元素指定宽度和高度包括了 padding 和 border 。
+	通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度 
+	还有个就是view之间不会有间隙
+	*/
+	box-sizing: border-box;
+}
+
+/* 布局 */
+.center{
+
+	display:flex;
+
+	align-items: center;
+	justify-content: center;
+}
+.row{
+
+	display:flex;
+
+	flex-direction: row;
+}
+.column{
+
+	display:flex;
+
+	flex-direction: column;
+}
+.space-between {
+
+	display:flex;
+
+	flex-direction: row;
+	justify-content: space-between;
+}
+.one{
+	flex: 1;
+}
+/* input */
+.placeholder{
+	color: #999 !important;
+}
+/* 隐藏滚动条的问题,但依旧具备可以滚动的功能 */
+/* 解决小程序和app  */
+.noScorll ::-webkit-scrollbar{
+		display: none;
+}
+
+/* 解决 H5 的问题 */
+
+
+
+
+
+
+
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/*文本基本颜色*/
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont"; /* Project id 4967155 */
+  src: url('data:font/ttf;base64,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') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-saoyisao:before {
+  content: "\e8b5";
+}
+.icon-video:before {
+  content: "\e7c8";
+}
+.icon-moneybag:before {
+  content: "\e661";
+}
+.icon-laoshi2:before {
+  content: "\e600";
+}
+.icon-right:before {
+  content: "\e656";
+}
+.icon-sousuo:before {
+  content: "\e60d";
+}page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

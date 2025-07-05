@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4967155 */
+  src: url('~@/static/icon/iconfont.ttf?t=1751736917807') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-saoyisao:before {
+  content: "\e8b5";
+}
+
+.icon-video:before {
+  content: "\e7c8";
+}
+
+.icon-moneybag:before {
+  content: "\e661";
+}
+
+.icon-laoshi2:before {
+  content: "\e600";
+}
+
+.icon-right:before {
+  content: "\e656";
+}
+
+.icon-sousuo:before {
+  content: "\e60d";
+}
+
